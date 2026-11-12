@@ -1,0 +1,19 @@
+{
+  "name": "typescript-decorator-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A TypeScript decorators proof of concept",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "helpful-decorators": "^2.1.0"
+  }
+}
